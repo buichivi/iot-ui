@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IOT Nhóm 4</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card" id="flameDetected">
+        <h2>Flame Detected</h2>
+        <span class="value">0</span>
+      </div>
+      <div class="card" id="gas">
+        <h2>Gas</h2>
+        <span class="value">0</span>
+      </div>
+      <div class="card" id="humidity">
+        <h2>Humidity</h2>
+        <span class="value">0</span>
+      </div>
+      <div class="card" id="temperature">
+        <h2>Temperature</h2>
+        <span class="value">0</span>
+      </div>
+      <div class="fire-warning">Phát hiện lửa</div>
+    </div>
+    <img src="./Firefighter Training Workshop by Slidesgo.jpg" alt="" id="background-image" />
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
